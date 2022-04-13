@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="theme.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <div class="screen">
+    <div class="calculator">
+
+      <!-- -----------HEADER PART------------- -->
+      <div class="header">
+        <h2>calc</h2>
+        <div class="toggle">
+          <p id="one">1</p>
+          <p id="two">2</p>
+          <p id="three">3</p>
+        </div>
+      </div>
+      <div class="control">
+        <p>THEME</p>
+        <div class="box">
+          <div id="circle"></div>
+        </div>
+      </div>
+<!-- ---------------END OF HEADER PART--------------- -->
+
+      <!-- -------------------CALCULATOR----------------- -->
+      <form name="calc">
+        <input type="text" name="text" readonly id="screen-box">
+      </form>
+      <div class=" keyboard">
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn del">DEL</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn">+</button>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn">-</button>
+        <button class="btn">.</button>
+        <button class="btn">0</button>
+        <button class="btn">/</button>
+        <button class="btn">X</button>
+        <div class="result">
+          <button class="reset-btn">RESET</button>
+          <button class="equal-btn">=</button>
+        </div>
+      </div>
+    </div>
+    <!-- -------------END OF CALCULATOR------------ -->
+    
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,123 @@
+:root {
+    --bgcolor: hsl(222, 26%, 31%);
+    --bg1color: hsl(0, 0%, 90%);
+    --bg2color: hsl(268, 75%, 9%);
+    --bg3color: hsl(185, 42%, 37%);
+    --bg4color: hsl(0, 5%, 81%);
+    --bg5color: hsl(25, 98%, 40%);
+    --bg6color: hsl(0, 0%, 93%);
+    --bg7color: hsl(25, 99%, 27%);
+    --bg8color: hsl(45, 7%, 89%);
+    --bg9color: hsl(35, 11%, 61%);
+    --bg10color: hsl(268, 71%, 12%);
+    --bg11color: hsl(281, 89%, 26%);
+    --bg12color: hsl(176, 100%, 44%);
+    --bg13color: hsl(268, 47%, 21%);
+    --bg14color: hsl(285, 91%, 52%);
+    --bg15color: hsl(52, 100%, 62%);
+    --bg16color: hsl(198, 20%, 13%);
+    --bg17color: hsl(290, 70%, 36%);
+}
+
+.screen.active1 {
+    background-color: var(--bg1color);
+}
+
+.screen.active1 .reset-btn {
+    background-color: var(--bg3color);
+
+}
+
+.screen.active1 .del {
+    background-color: var(--bg3color);
+    color: #ffff !important;
+}
+
+.screen.active1 .keyboard {
+    background-color: var(--bg4color);
+}
+
+.screen.active1 input {
+    background-color: var(--bg6color);
+}
+
+.screen.active1 .btn {
+    color: #000;
+}
+
+.screen.active1 h2 {
+    color: #000;
+}
+
+.screen.active1 p {
+    color: #000;
+}
+
+.screen.active1 .control p {
+    color: #000;
+}
+
+.screen.active1 .box {
+    background-color: var(--bg4color);
+}
+
+.screen.active1 input {
+    color: black;
+}
+
+.screen.active2 {
+    background-color: var(--bg2color)
+}
+
+.screen.active2 .reset-btn {
+    background-color: var(--bg11color);
+    box-shadow: 0 2px 1px hsl(290, 70%, 36%);
+}
+
+.screen.active2 .equal-btn {
+    background-color: var(--bg12color);
+    color: #000;
+}
+
+.screen.active2 .del {
+    background-color: var(--bg17color);
+    color: #ffff !important;
+    font-size: 15px;
+}
+
+.screen.active2 .keyboard {
+    background-color: var(--bg10color);
+}
+
+.screen.active2 input {
+    background-color: var(--bg10color);
+}
+
+.screen.active2 .btn {
+    color: var(--bg15color);
+    background-color: var(--bg11color);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 1px hsl(290, 70%, 36%);
+}
+
+.screen.active2 h2,
+p {
+    color: var(--bg15color);
+}
+
+.screen.active2 .control p {
+    color: var(--bg15color);
+}
+
+.screen.active2 .box {
+    background-color: var(--bg10color);
+}
+
+.screen.active2 #circle {
+    background-color: var(--bg12color);
+}
+
+.screen.active2 input {
+    color: var(--bg15color);
+}
